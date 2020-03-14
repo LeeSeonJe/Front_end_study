@@ -32,6 +32,7 @@
 	#c-rgba{color: rgba(255, 0, 0, 0.3);} /* 투명도 값은 값이 작아질수록 투명도는 커짐 */
 	#c-hsl{color: hsl(360, 100%, 50%);}
 	#c-hsla{color: hsl(360, 100%, 50%, 0);}
+<<<<<<< HEAD
 	
 	#td1{text-decoration: none;} /* 지우기 */
 	#td2{text-decoration: underline;} /* 아래 */
@@ -637,6 +638,90 @@
 		<li>CSS3</li>
 		<li>JavaScript</li>
 		<li>jQuery</li>
+=======
+</style>
+</head>
+<body>
+	<h1>텍스트 스타일</h1>
+	<hr>
+	<h2>font-family속성</h2>
+	<p>텍스트 글꼴 지정할 때 사용</p>
+	<pre>	- 선택자{font-family: 글꼴이름;}</pre>
+	<p id="ff1">글꼴 변경 테스트1</p>
+	<p id="ff2">글꼴 변경 테스트2</p>
+	<p id="ff3">글꼴 변경 테스트3</p>
+	
+	<h3>웹 폰트 사용하는 방법</h3>
+	<p>
+		웹 폰트 제공 사이트 : 
+		<a href="http://fonts.google.com" target="_blank">
+			구글 웹 폰트 사이트
+		</a>
+	</p>
+	<p id="web-font">font style test</p>
+
+	<h2>font-size 속성</h2>
+	<p>텍스트 크기를 변경할 때 사용</p>
+	<pre>	- 선택자{font-size: 크기;}</pre>
+	<ul>
+		<li id="size1">px텍스트</li>
+		<li id="size2">em텍스트</li>
+		<li id="size3">%텍스트</li>
+	</ul>	
+	
+	<h2>font-weight</h2>
+	<p>글씨 두께 변경할 때 사용</p>
+	<pre>	-선택자{font-weight: 속성 값;}</pre>
+	<ul>
+		<li>원래 굵기</li>
+		<li id="fw1">굵은 글꼴로 변경</li>
+		<li id="fw2">원래 굵기보다 더 가늘게</li>
+		<li id="fw3">원래 굵기보다 더 굵게</li>
+	</ul>
+	
+	<h2>font-variant</h2>
+	<p>작은 대문자로 변경할 때</p>
+	<pre>	-선택자{font-variant: 속성 값;}</pre>
+	<p>I LOVE YOU</p>
+	<p id="fv">i love you</p>
+	
+	<h2>font-style</h2>
+	<p>텍스트의 기울임을 지정할 때</p>
+	<pre>	- 선택자{font-style: 속성 값;}</pre>
+	<ul>
+		<li id="fs1">italic 기울임 글꼴</li>
+		<li id="fs2">oblique 기울임 글꼴</li>
+	</ul>
+	
+	<hr>
+	
+	<h2>font</h2>
+	<p>글꼴 관련 스타일을 한번에 지정할 때 사용</p>
+	<pre>	- 선택자{font: font-style font-variant font-size/line-height font-family;}</pre>
+	<ul>
+		<li id="f1">글꼴 관련 스타일 테스트1</li>
+		<li id="f2">글꼴 관련 스타일 테스트2</li>
+	</ul>
+	
+	<hr>
+	
+	<h2>color</h2>
+	<p>텍스트 색상 변경</p>
+	<pre>	- 선택자{color: 색상 영문이름 | 16진수 숫자 | rgb | rgba | hsl | hsla}</pre>
+	<p>
+		<a href="http://www.colorpicker.com" target="_blank">
+			색상 값 참조 사이트
+		</a>	
+	</p>	
+	
+	<ul>
+		<li id="c-name">색상명으로 지정</li>
+		<li id="c-16">16진수로 지정</li>
+		<li id="c-rgb">rgb로 지정</li>
+		<li id="c-rgba">rgba로 지정</li>
+		<li id="c-hsl">hsl로 지정</li>
+		<li id="c-hsla">hsla로 지정</li>
+>>>>>>> refs/remotes/origin/master
 	</ul>
 </body>
 </html>
