@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+html, body{width: 80%; margin: 0 auto; height: 90%}
+h1{text-align: center;}
+header{background: red; color: white; height: 15%; text-align: center;}
+nav{background: darkgray; color: white; height: 10%; text-align: center;}
+section{background: green; color: white; width: 80%; text-align: center; height: 65%; float: left;}
+section>article{display: inline-block; margin-bottom: 5%; margin-top: 9%; float: left; width: 47%; height: 70%}
+#article1{background: pink; color: white; margin-left: 3%;}
+#article2{background: orange; color: white; margin-right: 3%;}
+aside{background: blue; color: white; height: 65%; width: 20%; float: left; text-align: center;}
+footer{background: purple; color: white; height: 10%; text-align: center;}

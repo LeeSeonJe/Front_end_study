@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+caption{font-size: 20px; font-weight:bold; color: #FF3300;}
+thead{background: #FF3300; color: white;}
+tbody{background: orange;}
+tfoot{background: yellow; color: red; text-align: center; font-weight: bold;}
+input{background: green; color: white;}
