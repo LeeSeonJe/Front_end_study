@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="../js/Practice1_bookCategorySelect.js"></script>
+<style>
+div {
+	border: 1px solid black;
+	min-height: 100px;
+}
+</style>
+</head>
+<body>
+	<section>
+		<fieldset>
+			<legend>취미</legend>
+			<input type="checkbox" id="chkAll" onclick="checkedAll();"><label>전체선택</label>
+			<input type="checkbox" name="chk" value="종합" onclick="isChk()"><label>종합</label>
+			<input type="checkbox" name="chk" value="소설" onclick="isChk()"><label>소설</label>
+			<input type="checkbox" name="chk" value="시/에세이" onclick="isChk()"><label>시/에세이</label>
+			<input type="checkbox" name="chk" value="경제/경영" onclick="isChk()"><label>경제/경영</label>
+			<input type="checkbox" name="chk" value="자기계발" onclick="isChk()"><label>자기계발</label>
+			<input type="checkbox" name="chk" value="아동" onclick="isChk()"><label>아동</label>
+			<input type="checkbox" name="chk" value="여행" onclick="isChk()"><label>여행</label>
+			<input type="checkbox" name="chk" value="과학" onclick="isChk()"><label>과학</label>
+			<input type="checkbox" name="chk" value="역사/문화" onclick="isChk()"><label>역사/문화</label>
+			<input type="checkbox" name="chk" value="외국어" onclick="isChk()"><label>외국어</label>
+			<input type="checkbox" name="chk" value="컴퓨터" onclick="isChk()"><label>컴퓨터</label>
+			<input type="checkbox" name="chk" value="만화" onclick="isChk()"><label>만화</label>
+		</fieldset>
+	</section>
+	<br>
+	<section>
+		<input type="button" value="카테로리 선텍" onclick="categorySel();">
+		<div id="category" ></div>
+	</section>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="../js/Practice4_BuyingInfo.js"></script>
+<title>Insert title here</title>
+<style>
+section>fieldset {
+	width: 450px;
+}
+section>input {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+section>div {
+	border: 1px solid black;
+	width: 400px;
+	height: 150px;
+}
+
+section>fieldset>ul>li>input#buyer, input#product {
+	width: 250px;
+}
+
+section>fieldset>ul>li>input#price {
+	width: 230px;
+}
+
+section>fieldset>ul>li>input#count {
+	width: 70px;
+}
+
+
+</style>
+</head>
+<body>
+	<section>
+		<fieldset>
+			<legend> 구매정보 </legend>
+			<ul id="buyList">
+				<li><label>구매자 : </label><input id="buyer"type="text" placeholder="구매자의 이름을 입력하세요"/></li>
+				<li><label>상품명 : </label><input id="product" type="text" placeholder="구매 상품 명을 입력하세요"/></li>
+				<li><label>가격 : </label><input id="price" type="text" placeholder="구매 가격을 입력하세요"/></li>
+				<li><label>구매 수량 : </label><input id="count" type="number" placeholder="최소 10" min="10" value="10"/></li>
+				<li><label>납품 등급 : </label><input id="rate" type="range" min="10" max="100" step="10" value="10"/></li>
+				<li><label>기타 사항 : </label><textarea id="etc" rows="5" cols="30"></textarea></li>
+			</ul>
+		</fieldset>
+		<input type="submit" value="입력 값 출력하기" onclick="getInform()">
+		<div id="getInform"></div>
+	</section>
+</body>
+</html>
